@@ -1,0 +1,156 @@
+.html {
+    width: 100%;
+}
+
+.CV_header {
+    height: 76px;
+    position: relative; 
+}
+
+
+.CV_navigation { 
+    margin: 0 120.5px;
+    padding: 0 32px;
+    align-items: center;
+}
+
+.CV_navigation,
+.CV_avt,
+.CV_direct,
+.CV_account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+}
+
+.CV_image {
+    width: 76px;
+    height: 76px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.CV_avt {
+
+}
+
+.CV_direct {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}  
+
+.CV_direct-element { 
+    padding: 16px;
+    align-items: center;
+}
+
+.CV_direct-element:hover {
+    cursor: pointer;
+}
+
+.CV_direct-element > span {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+} 
+
+.CV_account {
+
+}
+
+.CV_account--logo {
+    font-size: 28px;
+    color: #000;
+}
+/* .CV_navigation, 
+.CV_direct, 
+.CV_account {
+    width = calc(100%/3);
+} */
+
+
+
+/* SLIDE CONTAINER */ 
+.CV_container {
+
+}
+
+.slide {
+    display: flex
+
+
+}
+
+.slide_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.slide_introduction {
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    margin-left: 120.5px;
+    position: relative;
+    bottom: -39%;
+}
+
+.slide_introduction--name {
+    font-family: monospace;
+    font-size: 48px;
+    display: block;
+    padding: 0 0 16px 0;
+}
+
+.slide_introduction--role {
+    font-size: 1.5rem;
+    font-family: monospace;
+
+}
+
+.slide_objective {
+
+}
+
+.slide_img {
+    width: 606px;
+    height: 626px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+/* Footer */
+.footer { 
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.social_invitation {
+    font-size: 25px;
+    color: var(--primary-color);
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.social-list {
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.social-list a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin: 12px 0 ;
+    padding: 0 12px;
+}
+

@@ -1,0 +1,130 @@
+.Resume_container {
+    background-color: var(--white-color);;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.Resume_header {
+    display: flex;
+    align-items: center;
+    /* position: relative;
+    right: -10%;
+    top: 10%; */
+    padding: 86px 0 86px 200px;
+}
+
+.Resume_avt {
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.Resume_avt > img {
+    width: 260px;
+    height: fit-content;
+    object-fit: contain;;
+}
+
+.resume_avt_img {
+    background-color: transparent;
+}
+
+.Resume_objective_container {
+    display: block;
+    margin-left: 32px;
+
+}
+
+.Resume_objective_container--infor {
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    font-size: 4.8rem;
+    font-family: monospace;
+    margin: 32px 0 32px 18px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.Resume_objective_container--objective {
+    display: block;
+    margin-left: 18px;
+    font-size: 1.4rem;
+
+
+}
+
+.Resume_objective_container--objective > p {
+    width: 75%;
+    line-height: 2;
+}
+
+/* BODY */
+
+.resume_detail {
+    display: flex;
+    /* flex-wrap: wrap; */
+    font-family: monospace;
+}
+
+.resume_category {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    color: var(--primary-color);
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+
+.Resume_detail_container {
+    width: 50%;
+    margin: 20px 0 40px 0;
+
+}
+
+.resume_block {
+    padding-bottom: 12px;
+}
+
+.detail_container--title {
+    display: block;
+}
+
+
+.detail_container--title > span:first-child {
+    display: block;
+}
+
+.detail_container--title > span {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+
+
+.detail_container--time {
+    display: block;
+    font-size: 10px;
+    font-style: italic;
+
+
+}
+
+.detail_container--desc {
+    /* display: block; */
+    margin: 8px 0;
+    font-size: 12px;
+    display: list-item;
+
+}
+
+
+/* Contact */
+.Resume_detail_container--contact {
+    padding-top: 20px;
+}
